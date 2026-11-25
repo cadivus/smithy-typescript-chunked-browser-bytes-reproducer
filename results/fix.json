@@ -1,0 +1,2437 @@
+{
+  "smithy": {
+    "ref": "fix",
+    "sha": "46acf0bf85a566a26e2dddfc53bd73f86276e5f2"
+  },
+  "bundleCheck": {
+    "smithyCoreRootsInBundle": [
+      "node_modules/@smithy/core"
+    ],
+    "activeSmithy": [
+      {
+        "ref": "fix",
+        "sha": "46acf0bf85a566a26e2dddfc53bd73f86276e5f2"
+      }
+    ],
+    "browserEncoderBundled": "node_modules/@smithy/core/dist-es/submodules/serde/util-stream/getAwsChunkedEncodingStream.browser.js",
+    "bundleHasFixFingerprint": true,
+    "bundleHasBlobHasher": true
+  },
+  "clientS3": "3.1177.0",
+  "generatedAt": "2026-11-25T13:27:32.109Z",
+  "part": "ALL",
+  "rows": [
+    {
+      "id": "chromium 159.0.8154.6|stub HTTP/1.1|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "chromium 159.0.8154.6",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "chromium-159-0-8154-6-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": false,
+      "error": "TypeError: Failed to fetch",
+      "status": null,
+      "serverErrorCode": null,
+      "stub": "request never completed at the stub",
+      "netError": "net::ERR_ALPN_NEGOTIATION_FAILED",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "chromium 159.0.8154.6|stub HTTP/1.1|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "chromium 159.0.8154.6",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "chromium-159-0-8154-6-stub-HTTP-1-1-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": false,
+      "error": "TypeError: Failed to fetch",
+      "status": null,
+      "serverErrorCode": null,
+      "stub": "request never completed at the stub",
+      "netError": "net::ERR_ALPN_NEGOTIATION_FAILED",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "chromium 159.0.8154.6|stub HTTP/1.1|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "chromium 159.0.8154.6",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "chromium-159-0-8154-6-stub-HTTP-1-1-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": false,
+      "error": "TypeError: Failed to fetch",
+      "status": null,
+      "serverErrorCode": null,
+      "stub": "request never completed at the stub",
+      "netError": "net::ERR_ALPN_NEGOTIATION_FAILED",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "chromium 159.0.8154.6|stub HTTP/1.1|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "chromium 159.0.8154.6",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "chromium-159-0-8154-6-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": false,
+      "error": "TypeError: Failed to fetch",
+      "status": null,
+      "serverErrorCode": null,
+      "stub": "request never completed at the stub",
+      "netError": "net::ERR_ALPN_NEGOTIATION_FAILED",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "chromium 159.0.8154.6|stub HTTP/1.1|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "chromium 159.0.8154.6",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "chromium-159-0-8154-6-stub-HTTP-1-1-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/chromium-159-0-8154-6-stub-HTTP-1-1-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "chromium 159.0.8154.6|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "chromium 159.0.8154.6",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "chromium-159-0-8154-6-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/chromium-159-0-8154-6-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "2.0",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16455,
+        "preview": "2000\r\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !"
+      },
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "chromium 159.0.8154.6|stub HTTP/2 (TLS)|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "chromium 159.0.8154.6",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "chromium-159-0-8154-6-stub-HTTP-2-TLS-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "GiYyRA==",
+      "expectedCRC32": "GiYyRA==",
+      "stub": {
+        "path": "/stub-bucket/chromium-159-0-8154-6-stub-HTTP-2-TLS-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+        "httpVersion": "2.0",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "GiYyRA==",
+        "actualCRC32": "GiYyRA==",
+        "decodedBytes": 16388,
+        "receivedBytes": 16445,
+        "preview": "2000\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "chromium 159.0.8154.6|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "chromium 159.0.8154.6",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "chromium-159-0-8154-6-stub-HTTP-2-TLS-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "ACThzQ==",
+      "expectedCRC32": "ACThzQ==",
+      "stub": {
+        "path": "/stub-bucket/chromium-159-0-8154-6-stub-HTTP-2-TLS-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+        "httpVersion": "2.0",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "ACThzQ==",
+        "actualCRC32": "ACThzQ==",
+        "decodedBytes": 1138,
+        "receivedBytes": 1192,
+        "preview": "400\r\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\""
+      },
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "chromium 159.0.8154.6|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "chromium 159.0.8154.6",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "chromium-159-0-8154-6-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/chromium-159-0-8154-6-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-REQUIRED",
+        "httpVersion": "2.0",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": null,
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "chromium 159.0.8154.6|stub HTTP/2 (TLS)|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "chromium 159.0.8154.6",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "chromium-159-0-8154-6-stub-HTTP-2-TLS-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/chromium-159-0-8154-6-stub-HTTP-2-TLS-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "2.0",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "chromium 159.0.8154.6|real S3|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "chromium 159.0.8154.6",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "chromium-159-0-8154-6-real-S3-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": false,
+      "error": "TypeError: Failed to fetch",
+      "status": null,
+      "serverErrorCode": null,
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "no object",
+      "netError": "net::ERR_ALPN_NEGOTIATION_FAILED",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "chromium 159.0.8154.6|real S3|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "chromium 159.0.8154.6",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "chromium-159-0-8154-6-real-S3-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": false,
+      "error": "TypeError: Failed to fetch",
+      "status": null,
+      "serverErrorCode": null,
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "no object",
+      "netError": "net::ERR_ALPN_NEGOTIATION_FAILED",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "chromium 159.0.8154.6|real S3|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "chromium 159.0.8154.6",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "chromium-159-0-8154-6-real-S3-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": false,
+      "error": "TypeError: Failed to fetch",
+      "status": null,
+      "serverErrorCode": null,
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "no object",
+      "netError": "net::ERR_ALPN_NEGOTIATION_FAILED",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "chromium 159.0.8154.6|real S3|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "chromium 159.0.8154.6",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "chromium-159-0-8154-6-real-S3-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": false,
+      "error": "TypeError: Failed to fetch",
+      "status": null,
+      "serverErrorCode": null,
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "no object",
+      "netError": "net::ERR_ALPN_NEGOTIATION_FAILED",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "chromium 159.0.8154.6|real S3|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "chromium 159.0.8154.6",
+      "target": "real S3",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "chromium-159-0-8154-6-real-S3-Uint8Array-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "object stored, bytes match",
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      },
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_ALPN_NEGOTIATION_FAILED"
+      ]
+    },
+    {
+      "id": "firefox 159.0|stub HTTP/1.1|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "firefox 159.0",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "firefox-159-0-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": false,
+      "error": "StubInvalidChunkFraming: no chunk-size line at offset 0",
+      "status": 400,
+      "serverErrorCode": "StubInvalidChunkFraming",
+      "stub": {
+        "path": "/stub-bucket/firefox-159-0-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "StubInvalidChunkFraming",
+        "detail": "no chunk-size line at offset 0",
+        "receivedBytes": 23,
+        "preview": "[object ReadableStream]"
+      },
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "firefox 159.0|stub HTTP/1.1|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "firefox 159.0",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "firefox-159-0-stub-HTTP-1-1-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": false,
+      "error": "StubInvalidChunkFraming: no chunk-size line at offset 0",
+      "status": 400,
+      "serverErrorCode": "StubInvalidChunkFraming",
+      "stub": {
+        "path": "/stub-bucket/firefox-159-0-stub-HTTP-1-1-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "StubInvalidChunkFraming",
+        "detail": "no chunk-size line at offset 0",
+        "receivedBytes": 23,
+        "preview": "[object ReadableStream]"
+      },
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "firefox 159.0|stub HTTP/1.1|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "firefox 159.0",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "firefox-159-0-stub-HTTP-1-1-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": false,
+      "error": "StubInvalidChunkFraming: no chunk-size line at offset 0",
+      "status": 400,
+      "serverErrorCode": "StubInvalidChunkFraming",
+      "stub": {
+        "path": "/stub-bucket/firefox-159-0-stub-HTTP-1-1-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "StubInvalidChunkFraming",
+        "detail": "no chunk-size line at offset 0",
+        "receivedBytes": 23,
+        "preview": "[object ReadableStream]"
+      },
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "firefox 159.0|stub HTTP/1.1|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "firefox 159.0",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "firefox-159-0-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": false,
+      "error": "StubPayloadMismatch: StubPayloadMismatch",
+      "status": 400,
+      "serverErrorCode": "StubPayloadMismatch",
+      "stub": {
+        "path": "/stub-bucket/firefox-159-0-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-REQUIRED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "StubPayloadMismatch",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": null,
+        "actualCRC32": "CIfxIw==",
+        "decodedBytes": 23,
+        "receivedBytes": 23,
+        "preview": "[object ReadableStream]"
+      },
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "firefox 159.0|stub HTTP/1.1|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "firefox 159.0",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "firefox-159-0-stub-HTTP-1-1-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/firefox-159-0-stub-HTTP-1-1-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "firefox 159.0|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "firefox 159.0",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "firefox-159-0-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": false,
+      "error": "StubInvalidChunkFraming: no chunk-size line at offset 0",
+      "status": 400,
+      "serverErrorCode": "StubInvalidChunkFraming",
+      "stub": {
+        "path": "/stub-bucket/firefox-159-0-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "2.0",
+        "contentEncoding": "aws-chunked",
+        "code": "StubInvalidChunkFraming",
+        "detail": "no chunk-size line at offset 0",
+        "receivedBytes": 23,
+        "preview": "[object ReadableStream]"
+      },
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "firefox 159.0|stub HTTP/2 (TLS)|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "firefox 159.0",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "firefox-159-0-stub-HTTP-2-TLS-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": false,
+      "error": "StubInvalidChunkFraming: no chunk-size line at offset 0",
+      "status": 400,
+      "serverErrorCode": "StubInvalidChunkFraming",
+      "stub": {
+        "path": "/stub-bucket/firefox-159-0-stub-HTTP-2-TLS-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+        "httpVersion": "2.0",
+        "contentEncoding": "aws-chunked",
+        "code": "StubInvalidChunkFraming",
+        "detail": "no chunk-size line at offset 0",
+        "receivedBytes": 23,
+        "preview": "[object ReadableStream]"
+      },
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "firefox 159.0|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "firefox 159.0",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "firefox-159-0-stub-HTTP-2-TLS-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": false,
+      "error": "StubInvalidChunkFraming: no chunk-size line at offset 0",
+      "status": 400,
+      "serverErrorCode": "StubInvalidChunkFraming",
+      "stub": {
+        "path": "/stub-bucket/firefox-159-0-stub-HTTP-2-TLS-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+        "httpVersion": "2.0",
+        "contentEncoding": "aws-chunked",
+        "code": "StubInvalidChunkFraming",
+        "detail": "no chunk-size line at offset 0",
+        "receivedBytes": 23,
+        "preview": "[object ReadableStream]"
+      },
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "firefox 159.0|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "firefox 159.0",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "firefox-159-0-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "endpoint": "https://localhost:8792",
+      "ok": false,
+      "error": "StubPayloadMismatch: StubPayloadMismatch",
+      "status": 400,
+      "serverErrorCode": "StubPayloadMismatch",
+      "stub": {
+        "path": "/stub-bucket/firefox-159-0-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-REQUIRED",
+        "httpVersion": "2.0",
+        "contentEncoding": null,
+        "code": "StubPayloadMismatch",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": null,
+        "actualCRC32": "CIfxIw==",
+        "decodedBytes": 23,
+        "receivedBytes": 23,
+        "preview": "[object ReadableStream]"
+      },
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "firefox 159.0|stub HTTP/2 (TLS)|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "firefox 159.0",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "firefox-159-0-stub-HTTP-2-TLS-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/firefox-159-0-stub-HTTP-2-TLS-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "2.0",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "firefox 159.0|real S3|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "firefox 159.0",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "firefox-159-0-real-S3-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": false,
+      "error": "IncompleteBody: The request body terminated unexpectedly",
+      "status": 400,
+      "serverErrorCode": "IncompleteBody",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "no object",
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "firefox 159.0|real S3|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "firefox 159.0",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "firefox-159-0-real-S3-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": false,
+      "error": "IncompleteBody: The request body terminated unexpectedly",
+      "status": 400,
+      "serverErrorCode": "IncompleteBody",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "no object",
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "firefox 159.0|real S3|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "firefox 159.0",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "firefox-159-0-real-S3-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": false,
+      "error": "IncompleteBody: The request body terminated unexpectedly",
+      "status": 400,
+      "serverErrorCode": "IncompleteBody",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "no object",
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "firefox 159.0|real S3|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "firefox 159.0",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "firefox-159-0-real-S3-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": false,
+      "error": "SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your key and signing method.",
+      "status": 403,
+      "serverErrorCode": "SignatureDoesNotMatch",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "no object",
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "firefox 159.0|real S3|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "firefox 159.0",
+      "target": "real S3",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "firefox-159-0-real-S3-Uint8Array-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "object stored, bytes match",
+      "netError": null,
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      },
+      "consoleErrors": []
+    },
+    {
+      "runtime": "webkit",
+      "scenario": "B",
+      "target": "-",
+      "body": "-",
+      "launchError": "host is missing system libraries (sudo npx playwright install-deps)"
+    },
+    {
+      "id": "deno 2.9.6|stub HTTP/1.1|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "deno 2.9.6",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "deno-2-9-6-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/deno-2-9-6-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16455,
+        "preview": "2000\r\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "deno 2.9.6|stub HTTP/1.1|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "deno 2.9.6",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "deno-2-9-6-stub-HTTP-1-1-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "GiYyRA==",
+      "expectedCRC32": "GiYyRA==",
+      "stub": {
+        "path": "/stub-bucket/deno-2-9-6-stub-HTTP-1-1-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "GiYyRA==",
+        "actualCRC32": "GiYyRA==",
+        "decodedBytes": 16388,
+        "receivedBytes": 16445,
+        "preview": "2000\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "deno 2.9.6|stub HTTP/1.1|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "deno 2.9.6",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "deno-2-9-6-stub-HTTP-1-1-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "ACThzQ==",
+      "expectedCRC32": "ACThzQ==",
+      "stub": {
+        "path": "/stub-bucket/deno-2-9-6-stub-HTTP-1-1-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "ACThzQ==",
+        "actualCRC32": "ACThzQ==",
+        "decodedBytes": 1138,
+        "receivedBytes": 1192,
+        "preview": "400\r\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\""
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "deno 2.9.6|stub HTTP/1.1|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "deno 2.9.6",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "deno-2-9-6-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/deno-2-9-6-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-REQUIRED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": null,
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "deno 2.9.6|stub HTTP/1.1|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "deno 2.9.6",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "deno-2-9-6-stub-HTTP-1-1-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/deno-2-9-6-stub-HTTP-1-1-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "deno 2.9.6|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "deno 2.9.6",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "deno-2-9-6-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/deno-2-9-6-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "2.0",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16455,
+        "preview": "2000\r\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "deno 2.9.6|stub HTTP/2 (TLS)|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "deno 2.9.6",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "deno-2-9-6-stub-HTTP-2-TLS-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "GiYyRA==",
+      "expectedCRC32": "GiYyRA==",
+      "stub": {
+        "path": "/stub-bucket/deno-2-9-6-stub-HTTP-2-TLS-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+        "httpVersion": "2.0",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "GiYyRA==",
+        "actualCRC32": "GiYyRA==",
+        "decodedBytes": 16388,
+        "receivedBytes": 16445,
+        "preview": "2000\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "deno 2.9.6|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "deno 2.9.6",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "deno-2-9-6-stub-HTTP-2-TLS-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "ACThzQ==",
+      "expectedCRC32": "ACThzQ==",
+      "stub": {
+        "path": "/stub-bucket/deno-2-9-6-stub-HTTP-2-TLS-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+        "httpVersion": "2.0",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "ACThzQ==",
+        "actualCRC32": "ACThzQ==",
+        "decodedBytes": 1138,
+        "receivedBytes": 1192,
+        "preview": "400\r\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\""
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "deno 2.9.6|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "deno 2.9.6",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "deno-2-9-6-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/deno-2-9-6-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-REQUIRED",
+        "httpVersion": "2.0",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": null,
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "deno 2.9.6|stub HTTP/2 (TLS)|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "deno 2.9.6",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "deno-2-9-6-stub-HTTP-2-TLS-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/deno-2-9-6-stub-HTTP-2-TLS-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "2.0",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "deno 2.9.6|real S3|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "deno 2.9.6",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "deno-2-9-6-real-S3-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "object stored, bytes match",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "deno 2.9.6|real S3|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "deno 2.9.6",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "deno-2-9-6-real-S3-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "GiYyRA==",
+      "expectedCRC32": "GiYyRA==",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "object stored, bytes match",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "deno 2.9.6|real S3|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "deno 2.9.6",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "deno-2-9-6-real-S3-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": false,
+      "error": "ReferenceError: DOMParser is not defined",
+      "status": 403,
+      "serverErrorCode": "InvalidChunkSizeError",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "no object",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "deno 2.9.6|real S3|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "deno 2.9.6",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "deno-2-9-6-real-S3-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": false,
+      "error": "ReferenceError: DOMParser is not defined",
+      "status": 403,
+      "serverErrorCode": "SignatureDoesNotMatch",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "no object",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "deno 2.9.6|real S3|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "deno 2.9.6",
+      "target": "real S3",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "deno-2-9-6-real-S3-Uint8Array-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "object stored, bytes match",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "bun 1.4.5|stub HTTP/1.1|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "bun 1.4.5",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "bun-1-4-5-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/bun-1-4-5-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16455,
+        "preview": "2000\r\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "bun 1.4.5|stub HTTP/1.1|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "bun 1.4.5",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "bun-1-4-5-stub-HTTP-1-1-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "GiYyRA==",
+      "expectedCRC32": "GiYyRA==",
+      "stub": {
+        "path": "/stub-bucket/bun-1-4-5-stub-HTTP-1-1-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "GiYyRA==",
+        "actualCRC32": "GiYyRA==",
+        "decodedBytes": 16388,
+        "receivedBytes": 16445,
+        "preview": "2000\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "bun 1.4.5|stub HTTP/1.1|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "bun 1.4.5",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "bun-1-4-5-stub-HTTP-1-1-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "ACThzQ==",
+      "expectedCRC32": "ACThzQ==",
+      "stub": {
+        "path": "/stub-bucket/bun-1-4-5-stub-HTTP-1-1-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "ACThzQ==",
+        "actualCRC32": "ACThzQ==",
+        "decodedBytes": 1138,
+        "receivedBytes": 1192,
+        "preview": "400\r\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\""
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "bun 1.4.5|stub HTTP/1.1|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "bun 1.4.5",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "bun-1-4-5-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/bun-1-4-5-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-REQUIRED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": null,
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "bun 1.4.5|stub HTTP/1.1|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "bun 1.4.5",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "bun-1-4-5-stub-HTTP-1-1-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/bun-1-4-5-stub-HTTP-1-1-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "bun 1.4.5|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "bun 1.4.5",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "bun-1-4-5-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/bun-1-4-5-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16455,
+        "preview": "2000\r\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "bun 1.4.5|stub HTTP/2 (TLS)|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "bun 1.4.5",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "bun-1-4-5-stub-HTTP-2-TLS-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "GiYyRA==",
+      "expectedCRC32": "GiYyRA==",
+      "stub": {
+        "path": "/stub-bucket/bun-1-4-5-stub-HTTP-2-TLS-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "GiYyRA==",
+        "actualCRC32": "GiYyRA==",
+        "decodedBytes": 16388,
+        "receivedBytes": 16445,
+        "preview": "2000\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "bun 1.4.5|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "bun 1.4.5",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "bun-1-4-5-stub-HTTP-2-TLS-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "ACThzQ==",
+      "expectedCRC32": "ACThzQ==",
+      "stub": {
+        "path": "/stub-bucket/bun-1-4-5-stub-HTTP-2-TLS-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "ACThzQ==",
+        "actualCRC32": "ACThzQ==",
+        "decodedBytes": 1138,
+        "receivedBytes": 1192,
+        "preview": "400\r\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\""
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "bun 1.4.5|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "bun 1.4.5",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "bun-1-4-5-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/bun-1-4-5-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-REQUIRED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": null,
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "bun 1.4.5|stub HTTP/2 (TLS)|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "bun 1.4.5",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "bun-1-4-5-stub-HTTP-2-TLS-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/bun-1-4-5-stub-HTTP-2-TLS-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "bun 1.4.5|real S3|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "bun 1.4.5",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "bun-1-4-5-real-S3-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "object stored, bytes match",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "bun 1.4.5|real S3|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "bun 1.4.5",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "bun-1-4-5-real-S3-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "GiYyRA==",
+      "expectedCRC32": "GiYyRA==",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "object stored, bytes match",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "bun 1.4.5|real S3|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "bun 1.4.5",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "bun-1-4-5-real-S3-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": false,
+      "error": "ReferenceError: DOMParser is not defined",
+      "status": 403,
+      "serverErrorCode": "InvalidChunkSizeError",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "no object",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "bun 1.4.5|real S3|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "bun 1.4.5",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "bun-1-4-5-real-S3-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": null,
+      "expectedCRC32": "dgq1EQ==",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "object stored, bytes match",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "bun 1.4.5|real S3|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "bun 1.4.5",
+      "target": "real S3",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "bun-1-4-5-real-S3-Uint8Array-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "object stored, bytes match",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "node 22.22.1|stub HTTP/1.1|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "node 22.22.1",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "node-22-22-1-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": false,
+      "error": "TypeError: fetch failed (cause: InvalidArgumentError: invalid transfer-encoding header)",
+      "status": null,
+      "serverErrorCode": null,
+      "stub": "request never completed at the stub",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "node 22.22.1|stub HTTP/1.1|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "node 22.22.1",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "node-22-22-1-stub-HTTP-1-1-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": false,
+      "error": "TypeError: fetch failed (cause: InvalidArgumentError: invalid transfer-encoding header)",
+      "status": null,
+      "serverErrorCode": null,
+      "stub": "request never completed at the stub",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "node 22.22.1|stub HTTP/1.1|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "node 22.22.1",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "node-22-22-1-stub-HTTP-1-1-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": false,
+      "error": "TypeError: fetch failed (cause: InvalidArgumentError: invalid transfer-encoding header)",
+      "status": null,
+      "serverErrorCode": null,
+      "stub": "request never completed at the stub",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "node 22.22.1|stub HTTP/1.1|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "node 22.22.1",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "node-22-22-1-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/node-22-22-1-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-REQUIRED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": null,
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "node 22.22.1|stub HTTP/1.1|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "node 22.22.1",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "node-22-22-1-stub-HTTP-1-1-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/node-22-22-1-stub-HTTP-1-1-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "node 22.22.1|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "node 22.22.1",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "node-22-22-1-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": false,
+      "error": "TypeError: fetch failed (cause: InvalidArgumentError: invalid transfer-encoding header)",
+      "status": null,
+      "serverErrorCode": null,
+      "stub": "request never completed at the stub",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "node 22.22.1|stub HTTP/2 (TLS)|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "node 22.22.1",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "node-22-22-1-stub-HTTP-2-TLS-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": false,
+      "error": "TypeError: fetch failed (cause: InvalidArgumentError: invalid transfer-encoding header)",
+      "status": null,
+      "serverErrorCode": null,
+      "stub": "request never completed at the stub",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "node 22.22.1|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "node 22.22.1",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "node-22-22-1-stub-HTTP-2-TLS-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": false,
+      "error": "TypeError: fetch failed (cause: InvalidArgumentError: invalid transfer-encoding header)",
+      "status": null,
+      "serverErrorCode": null,
+      "stub": "request never completed at the stub",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "node 22.22.1|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "node 22.22.1",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "node-22-22-1-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/node-22-22-1-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-REQUIRED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": null,
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "node 22.22.1|stub HTTP/2 (TLS)|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "node 22.22.1",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "node-22-22-1-stub-HTTP-2-TLS-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/node-22-22-1-stub-HTTP-2-TLS-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "node 22.22.1|real S3|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "node 22.22.1",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "node-22-22-1-real-S3-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": false,
+      "error": "TypeError: fetch failed (cause: InvalidArgumentError: invalid transfer-encoding header)",
+      "status": null,
+      "serverErrorCode": null,
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "no object",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "node 22.22.1|real S3|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "node 22.22.1",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "node-22-22-1-real-S3-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": false,
+      "error": "TypeError: fetch failed (cause: InvalidArgumentError: invalid transfer-encoding header)",
+      "status": null,
+      "serverErrorCode": null,
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "no object",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "node 22.22.1|real S3|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "node 22.22.1",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "node-22-22-1-real-S3-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": false,
+      "error": "TypeError: fetch failed (cause: InvalidArgumentError: invalid transfer-encoding header)",
+      "status": null,
+      "serverErrorCode": null,
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "no object",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "node 22.22.1|real S3|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "node 22.22.1",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "node-22-22-1-real-S3-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": null,
+      "expectedCRC32": "dgq1EQ==",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "object stored, bytes match",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "node 22.22.1|real S3|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "node 22.22.1",
+      "target": "real S3",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "node-22-22-1-real-S3-Uint8Array-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "object stored, bytes match",
+      "runtimeConfig": {
+        "requestHandler": "_FetchHttpHandler",
+        "streamHasher": "blobHasher2"
+      }
+    },
+    {
+      "id": "workerd (wrangler 4.168.0 dev)|stub HTTP/1.1|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "workerd (wrangler 4.168.0 dev)",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "workerd-wrangler-4-168-0-dev-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/workerd-wrangler-4-168-0-dev-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16455,
+        "preview": "2000\r\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !"
+      },
+      "runtimeConfig": {
+        "requestHandler": "FetchHttpHandler",
+        "streamHasher": "blobHasher"
+      }
+    },
+    {
+      "id": "workerd (wrangler 4.168.0 dev)|stub HTTP/1.1|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "workerd (wrangler 4.168.0 dev)",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "workerd-wrangler-4-168-0-dev-stub-HTTP-1-1-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "GiYyRA==",
+      "expectedCRC32": "GiYyRA==",
+      "stub": {
+        "path": "/stub-bucket/workerd-wrangler-4-168-0-dev-stub-HTTP-1-1-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "GiYyRA==",
+        "actualCRC32": "GiYyRA==",
+        "decodedBytes": 16388,
+        "receivedBytes": 16445,
+        "preview": "2000\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "runtimeConfig": {
+        "requestHandler": "FetchHttpHandler",
+        "streamHasher": "blobHasher"
+      }
+    },
+    {
+      "id": "workerd (wrangler 4.168.0 dev)|stub HTTP/1.1|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "workerd (wrangler 4.168.0 dev)",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "workerd-wrangler-4-168-0-dev-stub-HTTP-1-1-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "ACThzQ==",
+      "expectedCRC32": "ACThzQ==",
+      "stub": {
+        "path": "/stub-bucket/workerd-wrangler-4-168-0-dev-stub-HTTP-1-1-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "ACThzQ==",
+        "actualCRC32": "ACThzQ==",
+        "decodedBytes": 1138,
+        "receivedBytes": 1192,
+        "preview": "400\r\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\""
+      },
+      "runtimeConfig": {
+        "requestHandler": "FetchHttpHandler",
+        "streamHasher": "blobHasher"
+      }
+    },
+    {
+      "id": "workerd (wrangler 4.168.0 dev)|stub HTTP/1.1|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "workerd (wrangler 4.168.0 dev)",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "workerd-wrangler-4-168-0-dev-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/workerd-wrangler-4-168-0-dev-stub-HTTP-1-1-ReadableStream-Uint8Array-WHEN-REQUIRED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": null,
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "runtimeConfig": {
+        "requestHandler": "FetchHttpHandler",
+        "streamHasher": "blobHasher"
+      }
+    },
+    {
+      "id": "workerd (wrangler 4.168.0 dev)|stub HTTP/1.1|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "workerd (wrangler 4.168.0 dev)",
+      "target": "stub HTTP/1.1",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "workerd-wrangler-4-168-0-dev-stub-HTTP-1-1-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "http://127.0.0.1:8791",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/workerd-wrangler-4-168-0-dev-stub-HTTP-1-1-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "runtimeConfig": {
+        "requestHandler": "FetchHttpHandler",
+        "streamHasher": "blobHasher"
+      }
+    },
+    {
+      "id": "workerd (wrangler 4.168.0 dev)|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "workerd (wrangler 4.168.0 dev)",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "workerd-wrangler-4-168-0-dev-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/workerd-wrangler-4-168-0-dev-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16455,
+        "preview": "2000\r\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !"
+      },
+      "runtimeConfig": {
+        "requestHandler": "FetchHttpHandler",
+        "streamHasher": "blobHasher"
+      }
+    },
+    {
+      "id": "workerd (wrangler 4.168.0 dev)|stub HTTP/2 (TLS)|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "workerd (wrangler 4.168.0 dev)",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "workerd-wrangler-4-168-0-dev-stub-HTTP-2-TLS-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "GiYyRA==",
+      "expectedCRC32": "GiYyRA==",
+      "stub": {
+        "path": "/stub-bucket/workerd-wrangler-4-168-0-dev-stub-HTTP-2-TLS-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "GiYyRA==",
+        "actualCRC32": "GiYyRA==",
+        "decodedBytes": 16388,
+        "receivedBytes": 16445,
+        "preview": "2000\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "runtimeConfig": {
+        "requestHandler": "FetchHttpHandler",
+        "streamHasher": "blobHasher"
+      }
+    },
+    {
+      "id": "workerd (wrangler 4.168.0 dev)|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "workerd (wrangler 4.168.0 dev)",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "workerd-wrangler-4-168-0-dev-stub-HTTP-2-TLS-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "ACThzQ==",
+      "expectedCRC32": "ACThzQ==",
+      "stub": {
+        "path": "/stub-bucket/workerd-wrangler-4-168-0-dev-stub-HTTP-2-TLS-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": "aws-chunked",
+        "code": "OK",
+        "awsChunked": true,
+        "trailerOrHeaderCRC32": "ACThzQ==",
+        "actualCRC32": "ACThzQ==",
+        "decodedBytes": 1138,
+        "receivedBytes": 1192,
+        "preview": "400\r\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\""
+      },
+      "runtimeConfig": {
+        "requestHandler": "FetchHttpHandler",
+        "streamHasher": "blobHasher"
+      }
+    },
+    {
+      "id": "workerd (wrangler 4.168.0 dev)|stub HTTP/2 (TLS)|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "workerd (wrangler 4.168.0 dev)",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "workerd-wrangler-4-168-0-dev-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/workerd-wrangler-4-168-0-dev-stub-HTTP-2-TLS-ReadableStream-Uint8Array-WHEN-REQUIRED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": null,
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "runtimeConfig": {
+        "requestHandler": "FetchHttpHandler",
+        "streamHasher": "blobHasher"
+      }
+    },
+    {
+      "id": "workerd (wrangler 4.168.0 dev)|stub HTTP/2 (TLS)|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "workerd (wrangler 4.168.0 dev)",
+      "target": "stub HTTP/2 (TLS)",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "workerd-wrangler-4-168-0-dev-stub-HTTP-2-TLS-Uint8Array-WHEN-SUPPORTED",
+      "endpoint": "https://localhost:8792",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "stub": {
+        "path": "/stub-bucket/workerd-wrangler-4-168-0-dev-stub-HTTP-2-TLS-Uint8Array-WHEN-SUPPORTED",
+        "httpVersion": "1.1",
+        "contentEncoding": null,
+        "code": "OK",
+        "awsChunked": false,
+        "trailerOrHeaderCRC32": "dgq1EQ==",
+        "actualCRC32": "dgq1EQ==",
+        "decodedBytes": 16398,
+        "receivedBytes": 16398,
+        "preview": "\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'"
+      },
+      "runtimeConfig": {
+        "requestHandler": "FetchHttpHandler",
+        "streamHasher": "blobHasher"
+      }
+    },
+    {
+      "id": "workerd (wrangler 4.168.0 dev)|real S3|ReadableStream<Uint8Array>|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "workerd (wrangler 4.168.0 dev)",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "key": "workerd-wrangler-4-168-0-dev-real-S3-ReadableStream-Uint8Array-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "object stored, bytes match",
+      "runtimeConfig": {
+        "requestHandler": "FetchHttpHandler",
+        "streamHasher": "blobHasher"
+      }
+    },
+    {
+      "id": "workerd (wrangler 4.168.0 dev)|real S3|ReadableStream<string> (ASCII)|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "workerd (wrangler 4.168.0 dev)",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<string> (ASCII)",
+      "body": "string-stream",
+      "key": "workerd-wrangler-4-168-0-dev-real-S3-ReadableStream-string-ASCII-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "GiYyRA==",
+      "expectedCRC32": "GiYyRA==",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "object stored, bytes match",
+      "runtimeConfig": {
+        "requestHandler": "FetchHttpHandler",
+        "streamHasher": "blobHasher"
+      }
+    },
+    {
+      "id": "workerd (wrangler 4.168.0 dev)|real S3|ReadableStream<Uint8Array>, chunks < 8 KiB|WHEN_SUPPORTED",
+      "scenario": "B/C",
+      "runtime": "workerd (wrangler 4.168.0 dev)",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>, chunks < 8 KiB",
+      "body": "small-stream",
+      "key": "workerd-wrangler-4-168-0-dev-real-S3-ReadableStream-Uint8Array-chunks-8-KiB-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": false,
+      "error": "ReferenceError: DOMParser is not defined",
+      "status": 403,
+      "serverErrorCode": "InvalidChunkSizeError",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "no object",
+      "runtimeConfig": {
+        "requestHandler": "FetchHttpHandler",
+        "streamHasher": "blobHasher"
+      }
+    },
+    {
+      "id": "workerd (wrangler 4.168.0 dev)|real S3|ReadableStream<Uint8Array>|WHEN_REQUIRED",
+      "scenario": "D",
+      "runtime": "workerd (wrangler 4.168.0 dev)",
+      "target": "real S3",
+      "bodyLabel": "ReadableStream<Uint8Array>",
+      "body": "stream",
+      "checksum": "WHEN_REQUIRED",
+      "key": "workerd-wrangler-4-168-0-dev-real-S3-ReadableStream-Uint8Array-WHEN-REQUIRED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": false,
+      "error": "ReferenceError: DOMParser is not defined",
+      "status": 403,
+      "serverErrorCode": "SignatureDoesNotMatch",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "no object",
+      "runtimeConfig": {
+        "requestHandler": "FetchHttpHandler",
+        "streamHasher": "blobHasher"
+      }
+    },
+    {
+      "id": "workerd (wrangler 4.168.0 dev)|real S3|Uint8Array|WHEN_SUPPORTED",
+      "scenario": "control",
+      "runtime": "workerd (wrangler 4.168.0 dev)",
+      "target": "real S3",
+      "bodyLabel": "Uint8Array",
+      "body": "bytes",
+      "key": "workerd-wrangler-4-168-0-dev-real-S3-Uint8Array-WHEN-SUPPORTED",
+      "region": "us-west-2",
+      "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+      "ok": true,
+      "status": 200,
+      "checksumCRC32": "dgq1EQ==",
+      "expectedCRC32": "dgq1EQ==",
+      "endpoint": "s3.us-west-2.amazonaws.com",
+      "stored": "object stored, bytes match",
+      "runtimeConfig": {
+        "requestHandler": "FetchHttpHandler",
+        "streamHasher": "blobHasher"
+      }
+    }
+  ],
+  "A": {
+    "runtime": {
+      "requestHandler": "_FetchHttpHandler",
+      "streamHasher": "blobHasher2"
+    },
+    "direct": {
+      "enqueuedChunkTypes": [
+        "Uint8Array"
+      ],
+      "allChunksUint8Array": true,
+      "framingPreview": "2000\\r\\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\\n\u000b\f\\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHI … 13\\r\\nnaïve string chunk\\r\\n0\\r\\nx-amz-checksum-crc32:QBoVwA==\\r\\n\\r\\n",
+      "declaredChunkSizes": [
+        8192,
+        8192,
+        14,
+        19,
+        0
+      ],
+      "trailerChecksum": "QBoVwA==",
+      "emptyInputChecksum": "AAAAAA==",
+      "sourceByteLength": 16417,
+      "trueChecksum": "QBoVwA=="
+    },
+    "viaSdk": {
+      "contentEncoding": "aws-chunked",
+      "xAmzTrailer": "x-amz-checksum-crc32",
+      "decodedContentLength": "16398",
+      "enqueuedChunkTypes": [
+        "Uint8Array"
+      ],
+      "allChunksUint8Array": true,
+      "framingPreview": "2000\\r\\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t\\n\u000b\f\\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHI … �����\\r\\ne\\r\\nhéllo wörld\\n\\r\\n0\\r\\nx-amz-checksum-crc32:dgq1EQ==\\r\\n\\r\\n",
+      "declaredChunkSizes": [
+        8192,
+        8192,
+        14,
+        0
+      ],
+      "trailerChecksum": "dgq1EQ==",
+      "emptyInputChecksum": "AAAAAA==",
+      "sourceByteLength": 16398,
+      "trueChecksum": "dgq1EQ=="
+    }
+  },
+  "cleanup": {
+    "bucket": "smithy-chunked-repro-1795613252426-fyaqgt",
+    "region": "us-west-2",
+    "objectsDeleted": 14,
+    "bucketDeleted": true,
+    "proof": "HeadBucket -> NotFound (HTTP 404)"
+  }
+}
