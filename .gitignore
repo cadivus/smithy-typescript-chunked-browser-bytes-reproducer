@@ -60,3 +60,8 @@ librespot-cache/
 
 # --- test artifacts (do not commit) ---
 .pylib/
+node_modules/
+.smithy/
+dist/
+.wrangler/
+.certs/
