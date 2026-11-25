@@ -1,0 +1,19 @@
+{
+  "name": "smithy-typescript-chunked-browser-bytes-reproducer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "@aws-crypto/crc32": "5.2.0",
+    "@aws-sdk/client-s3": "3.1177.0"
+  },
+  "devDependencies": {
+    "bun": "1.4.5",
+    "deno": "2.9.6",
+    "esbuild": "0.28.2",
+    "playwright": "1.65.1",
+    "wrangler": "4.168.0"
+  }
+}
