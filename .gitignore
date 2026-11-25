@@ -1,0 +1,62 @@
+# ---- OS / system ----
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ---- IDE / editor / agent ----
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains / IntelliJ / PyCharm
+.idea/
+
+# pi agent workspace
+.pi/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.Python
+
+# ---- Docker / compose runtime ----
+# keep .env.example and .dockerignore tracked; ignore live secrets
+.env
+.env.*
+!.env.example
+
+# ---- Spotify recorder runtime output / caches ----
+# recorded FLAC output
+output/
+recordings/
+*.flac
+
+# librespot audio/credential cache
+cache/
+librespot-cache/
+*.cache
+
+# runtime FIFO + IPC socket (if ever on a tracked path)
+*.fifo
+
+# ---- Misc ----
+*.log
+*.tmp
+*.swp
+
+
+# --- test artifacts (do not commit) ---
+.pylib/
